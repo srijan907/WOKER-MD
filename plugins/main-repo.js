@@ -47,7 +47,7 @@ async (conn, mek, m, { from, reply }) => {
 
         // Send the audio file with context info
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/JawadYTX/KHAN-DATA/raw/refs/heads/main/autovoice/repo.m4a' },
+            audio: { url: 'https://cdn.ironman.my.id/i/7l9d7m.mp4' },
             mimetype: 'audio/mp4',
             ptt: true,
             contextInfo: { 
@@ -56,7 +56,7 @@ async (conn, mek, m, { from, reply }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363354023106228@newsletter',
-                    newsletterName: 'JawadTechX',
+                    newsletterName: 'Woker',
                     serverMessageId: 143
                 }
             }
