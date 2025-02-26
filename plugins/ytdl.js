@@ -29,7 +29,7 @@ cmd({
             return reply("Failed to fetch the video. Please try again later.");
         }
         
-        let ytmsg = `╭━━━〔 *KHAN-MD* 〕━━━┈⊷
+        let ytmsg = `╭━━━〔 *WOKER-MD* 〕━━━┈⊷
 ┃▸╭───────────
 ┃▸┃๏ *VIDEO DOWNLOADER*
 ┃▸└───────────···๏
@@ -53,7 +53,7 @@ cmd({
             document: { url: data.result.download_url }, 
             mimetype: "video/mp4", 
             fileName: `${data.result.title}.mp4`, 
-            caption: `> *${yts.title}*\n> *© Pᴏᴡᴇʀᴇᴅ Bʏ KʜᴀɴX-Aɪ ♡*`
+            caption: `> *${yts.title}*\n> *© Pᴏᴡᴇʀᴇᴅ Bʏ WoKeR ♡*`
         }, { quoted: mek });
 
     } catch (e) {
@@ -89,7 +89,7 @@ const yt = await ytsearch(q);
         return reply("Failed to fetch the audio. Please try again later.");
     }
     
-    let ytmsg = `╭━━━〔 *KHAN-MD* 〕━━━┈⊷
+    let ytmsg = `╭━━━〔 *WOKER-MD* 〕━━━┈⊷
 ┃▸╭───────────
 ┃▸┃๏ *MUSIC DOWNLOADER*
 ┃▸└───────────···๏
@@ -101,7 +101,7 @@ const yt = await ytsearch(q);
 ┇๏ *Author* -  ${yts.author.name} 
 ┇๏ *Link* -  ${yts.url}
 ╰━━❑━⪼
-> *© Pᴏᴡᴇʀᴇᴅ Bʏ KʜᴀɴX-Aɪ ♡*`;
+> *© Pᴏᴡᴇʀᴇᴅ Bʏ WoKeR ♡*`;
 
 
 
@@ -116,7 +116,7 @@ const yt = await ytsearch(q);
         document: { url: data.result.downloadUrl }, 
         mimetype: "audio/mpeg", 
         fileName: `${data.result.title}.mp3`, 
-        caption: `> *© Pᴏᴡᴇʀᴇᴅ Bʏ KʜᴀɴX-Aɪ ♡*`
+        caption: `> *© Pᴏᴡᴇʀᴇᴅ Bʏ WoKeR ♡*`
     }, { quoted: mek });
 
 } catch (e) {
