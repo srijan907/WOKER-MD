@@ -58,7 +58,7 @@ cmd({
     // Check update status
     let updateMessage = `✅ WOKER-MD is up-to-date!`;
     if (localVersion !== latestVersion) {
-      updateMessage = `🚀 Your KHAN-MD bot is outdated!
+      updateMessage = `🚀 WOKER-MD bot is outdated!
 🔹 *Current Version:* ${localVersion}
 🔹 *Latest Version:* ${latestVersion}
 
