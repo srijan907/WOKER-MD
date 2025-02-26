@@ -33,10 +33,10 @@ cmd({
     }  
 
     if (latestCommitHash === currentHash) {  
-      return reply("```✅ Your KHAN-MD bot is already up-to-date!```\n");  
+      return reply("```✅ Your WOKER-MD bot is already up-to-date!```\n");  
     }  
 
-    await reply("```KHAN-MD Bot Updating...🚀```\n");  
+    await reply("```WOKER-MD Bot Updating...🚀```\n");  
       
     // Download latest code  
     const zipPath = path.join(__dirname, "latest.zip");  
@@ -53,7 +53,7 @@ cmd({
     await reply("```🔄 Replacing files...```\n");  
       
     // Copy updated files, skipping config.js and app.json  
-    const sourcePath = path.join(extractPath, "KHAN-MD-main");  
+    const sourcePath = path.join(extractPath, "WOKER-MD-main");  
     const destinationPath = path.join(__dirname, '..');  
     copyFolderSync(sourcePath, destinationPath);  
 
