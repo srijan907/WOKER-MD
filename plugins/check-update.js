@@ -56,7 +56,7 @@ cmd({
     const githubRepo = 'https://github.com/JawadYTX/KHAN-MD';
 
     // Check update status
-    let updateMessage = `✅ Your KHAN-MD bot is up-to-date!`;
+    let updateMessage = `✅ WOKER-MD is up-to-date!`;
     if (localVersion !== latestVersion) {
       updateMessage = `🚀 Your KHAN-MD bot is outdated!
 🔹 *Current Version:* ${localVersion}
