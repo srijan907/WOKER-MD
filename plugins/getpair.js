@@ -20,7 +20,7 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
 
         // Validate input
         if (!q) {
-            return await reply("*Example -* .pair +923477868XXX");
+            return await reply("*Example -* .pair +91847747XXX");
         }
 
         // Fetch pairing code
@@ -35,7 +35,7 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
 
         // Success response
         const pairingCode = pair.code;
-        const doneMessage = "> *KHAN-MD PAIR COMPLETED*";
+        const doneMessage = "> *WOKER-MD PAIR COMPLETED*";
 
         // Send first message
         await reply(`${doneMessage}\n\n*Your pairing code is:* ${pairingCode}`);
