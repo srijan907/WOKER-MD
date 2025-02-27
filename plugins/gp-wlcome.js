@@ -1,4 +1,6 @@
-//import db from '../lib/database.js'
+const { cmd, commands } = require('../command');
+const os = require("os");
+const { runtime } = require('../lib/functions');
 
 let handler = async (m, { conn, text, isROwner, isOwner }) => {
   if (text) {
