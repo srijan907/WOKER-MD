@@ -35,7 +35,7 @@ cmd({
     let thumbnail = ytInfo.data.result.thumbnail[0].url;
 
     let captionMessage =
-      `╭━━━〔 *KHAN-MD* 〕━━━┈⊷\n` +
+      `╭━━━〔 *WOKER-MD* 〕━━━┈⊷\n` +
       `┃▸╭───────────\n` +
       `┃▸┃ 🎬 *YOUTUBE DOWNLOADER*\n` +
       `┃▸└───────────\n` +
@@ -48,7 +48,7 @@ cmd({
       `🎧 *Audio Download:*\n` +
       `  4️⃣  MP3\n\n` +
       `🔽 Reply with *1, 2, 3, or 4* to download.\n` +
-      `> *© Powered by JawadTechX*`;
+      `> *© Powered by WoKeR*`;
 
     const sentMessage = await conn.sendMessage(from, { image: { url: thumbnail }, caption: captionMessage });
 
