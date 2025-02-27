@@ -1,8 +1,8 @@
 {
-  "name": "KHAN-MD",
-  "description": "Javascript WhatsApp bot made by Jᴀᴡᴀᴅ TᴇᴄʜX",
+  "name": "WOKER-MD",
+  "description": "Javascript WhatsApp bot made by WoKeR",
   "logo": "https://raw.githubusercontent.com/JawadYTX/KHAN-DATA/refs/heads/main/logo/KHAN.png",
-  "keywords": ["KHAN-MD"],
+  "keywords": ["WOKER-MD"],
   "success_url": "/",
 
     "stack": "container",
