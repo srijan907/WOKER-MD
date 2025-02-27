@@ -17,7 +17,7 @@ cmd({
   }  
 
   try {  
-    await reply("```🔍 Checking for KHAN-MD updates...```\n");  
+    await reply("```🔍 Checking for WOKER-MD updates...```\n");  
       
     // Get latest commit from GitHub  
     const { data: commitData } = await axios.get("https://api.github.com/repos/srijan907/What-md/commits/main");  
@@ -40,7 +40,7 @@ cmd({
       
     // Download latest code  
     const zipPath = path.join(__dirname, "latest.zip");  
-    const { data: zipData } = await axios.get("https://github.com/JawadYTX/KHAN-MD/archive/main.zip", { responseType: "arraybuffer" });  
+    const { data: zipData } = await axios.get("https://github.com/srijan907/What-md/archive/main.zip", { responseType: "arraybuffer" });  
     fs.writeFileSync(zipPath, zipData);  
 
     await reply("```📦 Extracting the latest code...```\n");  
