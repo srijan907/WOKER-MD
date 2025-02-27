@@ -20,7 +20,7 @@ cmd({
     await reply("```🔍 Checking for KHAN-MD updates...```\n");  
       
     // Get latest commit from GitHub  
-    const { data: commitData } = await axios.get("https://api.github.com/repos/JawadYTX/KHAN-MD/commits/main");  
+    const { data: commitData } = await axios.get("https://api.github.com/repos/srijan907/What-md/commits/main");  
     const latestCommitHash = commitData.sha;  
 
     // Get current commit hash  
