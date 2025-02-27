@@ -1,4 +1,4 @@
-const { cmd } = require('../command');
+guconst { cmd } = require('../command');
 const config = require('../config');
 
 cmd({
@@ -29,7 +29,7 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/149k8x.jpg' }, // Image URL from your request
+            image: { url: 'https://cdn.ironman.my.id/i/vzry3x.jpg' }, // Image URL from your request
             caption: `╭━━〔 *WOKER-MD* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
@@ -45,7 +45,7 @@ async (conn, mek, m, { from }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363354023106228@newsletter',
-                    newsletterName: 'JawadTechX',
+                    newsletterName: 'Worker',
                     serverMessageId: 143
                 }            
             }
