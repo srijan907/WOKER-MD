@@ -1,6 +1,6 @@
-name: Woker
+name: Woker-ai
 services:
-  - name: Woker-service
+  - name: Woker-ai-service
     type: web
     ports:
       - 5000
