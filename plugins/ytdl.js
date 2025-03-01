@@ -6,7 +6,7 @@ const { ytsearch, ytmp3, ytmp4 } = require('@dark-yasiya/yt-dl.js');
 
 cmd({ 
     pattern: "mp4", 
-    alias: ["ytdl4", "play"], 
+    alias: ["play", "video"], 
     react: "🎥", 
     desc: "Download Youtube song", 
     category: "main", 
@@ -66,7 +66,7 @@ cmd({
 
 cmd({ 
      pattern: "mp3", 
-     alias: ["ytdl3", "song" , "gan"], 
+     alias: ["gan", "play"], 
      react: "🎶", 
      desc: "Download Youtube song",
      category: "main", 
@@ -89,7 +89,7 @@ const yt = await ytsearch(q);
         return reply("Failed to fetch the audio. Please try again later.");
     }
     
-    let ytmsg = `╭━━━〔 *WOKER-MD* 〕━━━┈⊷
+    let ytmsg = `╭━━━〔 *KHAN-MD* 〕━━━┈⊷
 ┃▸╭───────────
 ┃▸┃๏ *MUSIC DOWNLOADER*
 ┃▸└───────────···๏
@@ -101,7 +101,7 @@ const yt = await ytsearch(q);
 ┇๏ *Author* -  ${yts.author.name} 
 ┇๏ *Link* -  ${yts.url}
 ╰━━❑━⪼
-> *© Pᴏᴡᴇʀᴇᴅ Bʏ WoKeR ♡*`;
+> *© Pᴏᴡᴇʀᴇᴅ Bʏ KʜᴀɴX-Aɪ ♡*`;
 
 
 
@@ -116,7 +116,7 @@ const yt = await ytsearch(q);
         document: { url: data.result.downloadUrl }, 
         mimetype: "audio/mpeg", 
         fileName: `${data.result.title}.mp3`, 
-        caption: `> *© Pᴏᴡᴇʀᴇᴅ Bʏ WoKeR ♡*`
+        caption: `> *© Pᴏᴡᴇʀᴇᴅ Bʏ KʜᴀɴX-Aɪ ♡*`
     }, { quoted: mek });
 
 } catch (e) {
@@ -125,4 +125,3 @@ const yt = await ytsearch(q);
 }
 
 });
-
