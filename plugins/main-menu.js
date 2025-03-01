@@ -318,14 +318,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://cdn.ironman.my.id/i/vzry3x.jpg` },
+                image: { url: `https://cdn.ironman.my.id/i/44ado5.mp4` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
+                        newsletterJid: '120363406899332269@newsletter',
                         newsletterName: 'WoKeR',
                         serverMessageId: 143
                     }
