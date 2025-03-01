@@ -270,7 +270,7 @@ cmd({
 ┃ 📅 *Updated On:* ${app.updated}
 ┃ 👨‍💻 *Developer:* ${app.developer.name}
 ╰━━━━━━━━━━━━━━━┈⊷
-🔗 *Powered By KhanX-AI*`;
+🔗 *Powered By WoKeR*`;
 
     await conn.sendMessage(from, { react: { text: "⬆️", key: m.key } });
 
