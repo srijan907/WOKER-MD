@@ -89,7 +89,7 @@ const yt = await ytsearch(q);
         return reply("Failed to fetch the audio. Please try again later.");
     }
     
-    let ytmsg = `╭━━━〔 *KHAN-MD* 〕━━━┈⊷
+    let ytmsg = `╭━━━〔 *WOKER-MD* 〕━━━┈⊷
 ┃▸╭───────────
 ┃▸┃๏ *MUSIC DOWNLOADER*
 ┃▸└───────────···๏
@@ -116,7 +116,7 @@ const yt = await ytsearch(q);
         document: { url: data.result.downloadUrl }, 
         mimetype: "audio/mpeg", 
         fileName: `${data.result.title}.mp3`, 
-        caption: `> *© Pᴏᴡᴇʀᴇᴅ Bʏ KʜᴀɴX-Aɪ ♡*`
+        caption: `> *© Pᴏᴡᴇʀᴇᴅ Bʏ WoKeR ♡*`
     }, { quoted: mek });
 
 } catch (e) {
