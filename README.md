@@ -5,6 +5,7 @@
 </a>
 <br> 
 
+**Deploy Section**
 
 <h4 align="center">1. Heroku</h4>
 <p style="text-align: center; font-size: 1.2em;">
