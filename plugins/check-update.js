@@ -73,14 +73,14 @@ Use *.update* to update.`;
 
     // Send the status message with an image
     await conn.sendMessage(from, {
-      image: { url: 'https://files.catbox.moe/7zfdcq.jpg' },
+      image: { url: 'https://cdn.ironman.my.id/i/vzry3x.jpg' },
       caption: statusMessage,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363354023106228@newsletter',
+          newsletterJid: '120363406899332269@newsletter',
           newsletterName: 'WoKeR',
           serverMessageId: 143
         }
