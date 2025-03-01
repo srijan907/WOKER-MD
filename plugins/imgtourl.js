@@ -47,14 +47,14 @@ cmd({
       forwardingScore: 999,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: "120363354023106228@newsletter",
-        newsletterName: "JawadTechX",
+        newsletterJid: "120363406899332269@newsletter",
+        newsletterName: "WoKeR",
         serverMessageId: 143
       }
     };
 
     await conn.sendMessage(from, {
-      text: `✅ *Image Uploaded Successfully 📸*\n📏 *Size:* ${imageBuffer.length} Bytes\n🔗 *URL:* ${imageUrl}\n\n> ⚖️ *Uploaded via KHAN-AI*`,
+      text: `✅ *Image Uploaded Successfully 📸*\n📏 *Size:* ${imageBuffer.length} Bytes\n🔗 *URL:* ${imageUrl}\n\n> ⚖️ *Uploaded By Woker-Xd*`,
       contextInfo: msgContext
     });
 
